@@ -1,0 +1,1 @@
+56cfdd2ef300266b966cb0e86327833fe39e304cc9ca27e3ccf8e62d8772796c  Spin-Trainer-Test-0.14.0-preview.1-x64-setup.exe

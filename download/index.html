@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Скачать Spin Trainer</title>
+<link rel="icon" type="image/png" href="../favicon.png">
+<style>
+  :root { --bg:#0f1114; --panel:#171a1f; --line:#2a2f37; --text:#e8eaed; --muted:#9aa1ab; --accent:#3fb27f; color-scheme: dark; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f3f4f6; --panel:#fff; --line:#d8dce2; --text:#1b1f24; --muted:#5f6874; color-scheme: light; } }
+  body { margin:0; background:var(--bg); color:var(--text); font: 16px/1.55 Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; display:flex; flex-direction:column; gap:22px; }
+  header { display:flex; align-items:center; gap:16px; }
+  header img { width:72px; height:72px; }
+  h1 { margin:0; font-size: 28px; }
+  .muted { color: var(--muted); }
+  .dl { display:inline-flex; align-items:center; gap:10px; background: var(--accent); color:#fff; text-decoration:none; font-weight:700; padding:14px 22px; border-radius:12px; font-size:17px; box-shadow: 0 3px 0 rgba(0,0,0,.3); }
+  .dl:hover { filter: brightness(1.08); }
+  .card { background: var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; }
+  .card h2 { margin:0 0 6px; font-size:17px; }
+  ol, ul { margin: 6px 0 0; padding-left: 20px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Spin Trainer</h1>
+      <div class="muted">Тренажёр префлоп-решений для Spin &amp; Go</div>
+    </div>
+  </header>
+
+  <div>
+    <a class="dl" href="Spin-Trainer-setup.exe" download>⬇ Скачать для Windows</a>
+    <p class="muted">Версия 0.15.0 · 13.11.2026 · Windows 10 и 11 · около 3 МБ</p>
+  </div>
+
+  <div class="card">
+    <h2>Как установить</h2>
+    <ol>
+      <li>Запустите скачанный файл <b>Spin-Trainer-setup.exe</b>. Права администратора не нужны.</li>
+      <li>Windows может показать синее окно «Система Windows защитила ваш компьютер» — программа новая и пока без платной цифровой подписи. Нажмите <b>«Подробнее» → «Выполнить в любом случае»</b>.</li>
+      <li>Дальше программа обновляется сама: при выходе новой версии вверху появится кнопка «Обновить».</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Без установки</h2>
+    <p style="margin:0">Можно пользоваться прямо в браузере: <a href="../">веб-версия</a>. Данные (статистика, свои чарты) хранятся на этом устройстве, перенести их можно через «Резервную копию».</p>
+  </div>
+</main>
+</body>
+</html>

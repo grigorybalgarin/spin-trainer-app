@@ -1,0 +1,11 @@
+{
+  "version": "0.15.0",
+  "notes": "По разбору созвонов (`docs/20`), плану `docs/21` и ответам партнёра в анкете (`docs/22`).\n\n- Истории iPoker: итог раздачи больше не занижается (раньше почти все раздачи шли в минус и график падал).\n- Смешанные руки в расчётных наборах: верно более частое действие, при ровно 50% — играть. Частоты по умолчанию не показываются; прежнее правило «засчитывать оба» и показ частот — в настройках.\n- Размер рейза: открытие — из чарта или 2,5 BB; ререйз — ставка соперника + рейз по чарту (+ до 1 BB); после лимпа — лимп + рейз по чарту. На 12 BB и меньше кнопки рейза нет, если в чарте нет рейза.\n- «BB: минрейз BU + колл SB» в рекомендуемом наборе — по чарту «BB против минрейза BU» на всех стеках.\n- Наборы переименованы: «Основной» (бывшая «Школа») и «Рекомендуемый» (основной + решения партнёра).\n- Серия дней в «С друзьями» считается по местному времени и так же, как в шапке; ✓ — цель дня выполнена.\n- Основа бесплатной и платной версий: в тестовой сборке переключатель «Тариф для проверки». В обычной версии у всех полный доступ.\n- Для разработки: разбор файла пометок партнёра (`tools/reports/replay.ts`) и список рейзов на малых стеках (`tools/reports/raiseAudit.ts`).",
+  "pub_date": "2026-11-13T18:20:15.122Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNXJkaWcvYVZZRmFrTFlMYThkRXA2QVNoMVM1TkFQcllZRTNWSUZYSDJHdStUZnpxVzkwNHNjeWFNNjJIbElJTXRQd3lOZTFxSy82VStVZCtNNUNjMHFCR3Z2ZytoS2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTkzOTA1CWZpbGU6U3BpbiBUcmFpbmVyXzAuMTUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xNS4wCmtsbG9lZXQvUkEvQjdHb3pSSU9oVDYzaUJ5aTVTeStPK1BMRTllK09scEhWZCtIN2Zpc24xZXFuVmFnY2ZYUHNzOUxicmx6K2xSL2ZPWWRGZzVoWEF3PT0K",
+      "url": "https://grigorybalgarin.github.io/spin-trainer-app/download/Spin-Trainer-0.15.0-setup.exe"
+    }
+  }
+}
