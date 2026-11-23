@@ -1,0 +1,19 @@
+{
+  "version": "0.18.0",
+  "notes": "- **Программа для Mac.** Одна сборка для Apple Silicon и Intel, скачивается рядом с Windows и обновляется сама. Первый запуск — правой кнопкой → «Открыть» (программа пока без подписи Apple).\n- **Обновлённый внешний вид.** Единый стиль всплывающих окон и подсказок, плавные раскрывающиеся разделы в справке и списках, выровненные отступы и шрифты, лучше читается светлая тема, удобнее стол на телефоне.\n- **Поддержка прямо в тренажёре.** Ответы приходят в окно чата из нашей админки поддержки; переписка стирается с компьютера после выхода из аккаунта. Гостевая переписка защищена отдельным ключом.\n- **Числа по формату языка** на всех четырёх языках; «Карта ошибок» показывает правильный ответ и для ошибок с другого компьютера; имя по умолчанию следует выбранному языку.\n- **Синхронизация надёжнее:** отправляются только изменённые наборы, профиль — только после согласия, выход без сети завершает сессию при следующем подключении.\n- Для команды: админка поддержки и защита основного сервера, сервер готов к переезду на любой VPS, тестовый стенд обновляется из GitHub сам, ежедневные копии базы, исследование рынка и пакет для маркетолога. Всё сделал Codex, каждую заявку проверили ревьюер Codex и Claude.",
+  "pub_date": "2026-11-23T21:14:59.362566+00:00",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNXJkaWcvYVZZRmVyMldvN20wRkw3VEEwY01KRWxTaE9oUWVHOCtMNlNOZnJTdmh2Qnh0Sk9RYXlvQWFPNGx3NWRrZGZ1R3lNMkVhRGQ0UC9GVHFFS0pJSk1hVlRtNlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY3NjAxCWZpbGU6U3BpbiBUcmFpbmVyXzAuMTguMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xOC4wCmUrRWVLazIxRk5LS0syQXdDcm8vR3BYRGtsMFFEZGJ0aDJsK0MrdDE1QkpzQXhoeENIWG15cEZ1VUpoMWx2NjlIeE4yZVRrU0hFc1h0YTMreUlsY0FRPT0K",
+      "url": "https://grigorybalgarin.github.io/spin-trainer-app/download/Spin-Trainer-0.18.0-setup.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNXJkaWcvYVZZRlZsSkt5Z2lXeWRiQ0phbkpRWENoSUxsa08xY3ZqMVlsRk54TWV4T2xibEltdG5NTDdsYTk2KzRqSHNpTjNhSDFKNFR1aHFXUXVqeHRmM2xwR0wyR3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY4MzE5CWZpbGU6U3BpbiBUcmFpbmVyLmFwcC50YXIuZ3oJdmVyc2lvbjowLjE4LjAKVjJiVm0zRmpjenJtSmdLMzFEUGFlajF5Q2pvZU9WR0crdGNMOHlrb0hjMS9YYnJnMHlmS3Rrb1YvWGhla2QralVsR1ZCbDA1NTA4eWs4SzlzY0tJQkE9PQo=",
+      "url": "https://grigorybalgarin.github.io/spin-trainer-app/download/Spin-Trainer-0.18.0.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNXJkaWcvYVZZRlZsSkt5Z2lXeWRiQ0phbkpRWENoSUxsa08xY3ZqMVlsRk54TWV4T2xibEltdG5NTDdsYTk2KzRqSHNpTjNhSDFKNFR1aHFXUXVqeHRmM2xwR0wyR3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY4MzE5CWZpbGU6U3BpbiBUcmFpbmVyLmFwcC50YXIuZ3oJdmVyc2lvbjowLjE4LjAKVjJiVm0zRmpjenJtSmdLMzFEUGFlajF5Q2pvZU9WR0crdGNMOHlrb0hjMS9YYnJnMHlmS3Rrb1YvWGhla2QralVsR1ZCbDA1NTA4eWs4SzlzY0tJQkE9PQo=",
+      "url": "https://grigorybalgarin.github.io/spin-trainer-app/download/Spin-Trainer-0.18.0.app.tar.gz"
+    }
+  }
+}
